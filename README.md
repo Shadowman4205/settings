@@ -1,6 +1,6 @@
 My settings for linux apps
 ==============
 
-.zshrc
-.oh-my-zshrc
-.vimrc
+* .zshrc
+* .oh-my-zshrc
+* .vimrc
