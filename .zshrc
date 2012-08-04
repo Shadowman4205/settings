@@ -11,7 +11,7 @@ ZSH_THEME="afowler"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias mls="ls -alh" #not working
+alias lsm="ls -alh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -31,11 +31,7 @@ alias mls="ls -alh" #not working
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
-plugins=(vi-mode)
-plugins=(vundle)
-plugins=(svn)
-plugins=(mercurial)
+plugins=(git vi-mode vundle svn mercurial)
 
 source $ZSH/oh-my-zsh.sh
 
