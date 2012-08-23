@@ -22,6 +22,10 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
+Bundle 'mattn/zencoding-vim'
+"for ZenCoding expand Ctrl+E
+let g:user_zen_expandabbr_key = '<c-e>' 
+let g:use_zen_complete_tag = 1
 
 "Bundle 'L9'
 "Bundle 'FuzzyFinder'
