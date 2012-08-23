@@ -2,14 +2,13 @@ set nocompatible
 set laststatus=2
 set encoding=utf-8
 syntax on
-
-set background=dark
-"colorscheme jellybeans
+set t_Co=256 "256 color mode
+"set background=dark
 
 set autoindent
 set number
-highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
-set cpoptions+=n
+"highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+"set cpoptions+=n
 
 filetype off
 
@@ -38,5 +37,8 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-surround'
 Bundle 'nanotech/jellybeans.vim'
 
+
+let g:jellybeans_use_lowcolor_black = 0
+colorscheme jellybeans
 
 filetype plugin indent on     " required!
